@@ -98,4 +98,4 @@ BluetoothStateTypesList.forEach(
     (BluetoothStatus[bluetoothStateType] = withBluetoothStateType(bluetoothStateType))
 );
 
-export {BluetoothStatus as default, BluetoothStateManager };
+export default BluetoothStatus;
