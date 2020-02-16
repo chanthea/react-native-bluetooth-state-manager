@@ -1,5 +1,5 @@
-import BluetoothStateManager from './BluetoothStateManager';
-export default BluetoothStateManager;
+// import BluetoothStateManager from './BluetoothStateManager';
+// export default BluetoothStateManager;
 
-import BluetoothState from './BluetoothState';
-export { BluetoothState };
+import BluetoothState, {BluetoothStateManager} from './BluetoothState';
+export { BluetoothState, BluetoothStateManager as default };
